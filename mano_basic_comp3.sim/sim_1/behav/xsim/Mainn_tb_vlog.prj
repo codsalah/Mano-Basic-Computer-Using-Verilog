@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mano_basic_comp3.srcs/sources_1/new/256_RAM.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/AC_CONTROL.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/AC_REG.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/AC_adderNlogic.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/AR _Control.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/BUS_Control.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Control_Unit.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/DR_Control.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Decoder3x8.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Encoder8x3.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/IR_Control.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/MUX8_x3.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Memory_control.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/PC_REG.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/PC_control.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Sequence_counter.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/main.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/seq_counter.v" \
+"../../../../mano_basic_comp3.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May 10 23:46:49 2023
+# Process ID: 27352
+# Current directory: C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17912 C:\Users\ItShop\OneDrive\Documents\Vivado\mano_basic_comp_main_salah\mano_basic_comp_main\mano_basic_comp3.xpr
+# Log file: C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main/vivado.log
+# Journal file: C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main/mano_basic_comp3.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main'
+INFO: [Project 1-313] Project file moved from 'D:/Documents/UNI/projectbasiccomp/mano_basic_com_main/mano_basic_comp_main' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 816.219 ; gain = 160.438
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 11 02:24:30 2023...

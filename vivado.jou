@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May 10 23:46:49 2023
+# Process ID: 27352
+# Current directory: C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17912 C:\Users\ItShop\OneDrive\Documents\Vivado\mano_basic_comp_main_salah\mano_basic_comp_main\mano_basic_comp3.xpr
+# Log file: C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main/vivado.log
+# Journal file: C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ItShop/OneDrive/Documents/Vivado/mano_basic_comp_main_salah/mano_basic_comp_main/mano_basic_comp3.xpr
+update_compile_order -fileset sources_1

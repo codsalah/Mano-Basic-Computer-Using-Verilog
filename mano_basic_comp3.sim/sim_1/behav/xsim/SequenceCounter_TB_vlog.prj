@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Decoder3x8.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/Sequence_counter.v" \
+"../../../../mano_basic_comp3.srcs/sources_1/new/seq_counter.v" \
+"../../../../mano_basic_comp3.srcs/sim_1/new/SC_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

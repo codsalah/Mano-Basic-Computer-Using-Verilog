@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Mainn_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Mainn_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="781666666fs"></ZoomStartTime>
+      <ZoomEndTime time="1004066667fs"></ZoomEndTime>
+      <Cursor1Time time="975000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="104"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/Mainn_tb/DR" type="array">
+      <obj_property name="ElementShortName">DR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">DR[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/AC" type="array">
+      <obj_property name="ElementShortName">AC[15:0]</obj_property>
+      <obj_property name="ObjectShortName">AC[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/MEM" type="array">
+      <obj_property name="ElementShortName">MEM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/PC" type="array">
+      <obj_property name="ElementShortName">PC[11:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/AR" type="array">
+      <obj_property name="ElementShortName">AR[11:0]</obj_property>
+      <obj_property name="ObjectShortName">AR[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/IR" type="array">
+      <obj_property name="ElementShortName">IR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/T" type="array">
+      <obj_property name="ElementShortName">T[7:0]</obj_property>
+      <obj_property name="ObjectShortName">T[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/D" type="array">
+      <obj_property name="ElementShortName">D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">D[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/outsc" type="array">
+      <obj_property name="ElementShortName">outsc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">outsc[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/Data" type="array">
+      <obj_property name="ElementShortName">Data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/X" type="array">
+      <obj_property name="ElementShortName">X[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Mainn_tb/E" type="logic">
+      <obj_property name="ElementShortName">E</obj_property>
+      <obj_property name="ObjectShortName">E</obj_property>
+   </wvobject>
+</wave_config>

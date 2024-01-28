@@ -1,0 +1,9 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto a77b669893da4d41a359e268cb81788c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mainn_tb_behav xil_defaultlib.Mainn_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'B' [C:/Users/omar khattap/Desktop/mano_basic_comp_main_salah/mano_basic_comp_main_salah/mano_basic_comp_main/mano_basic_comp3.srcs/sources_1/new/Control_Unit.v:46]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 16 for port 'B' [C:/Users/omar khattap/Desktop/mano_basic_comp_main_salah/mano_basic_comp_main_salah/mano_basic_comp_main/mano_basic_comp3.srcs/sources_1/new/Control_Unit.v:52]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
