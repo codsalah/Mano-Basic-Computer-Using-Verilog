@@ -35,35 +35,26 @@ The Mano Basic Computer is a theoretical computer architecture described by M. M
 
 # Instruction Set
 ![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(2).png)
-This implementation can execute all the instructions described by M. Morris Mano.
 
-| Instruction | Hexadecimal Code | Description                                       |
-|-------------|------------------|---------------------------------------------------|
-| AND         | 0XXX 8XXX        | And memory word to AC                             |
-| ADD         | 1XXX 9XXX        | Add memory word to AC                             |
-| LDA         | 2XXX AXXX        | Load AC from memory                               |
-| STA         | 3XXX BXXX        | Store content of AC into memory                   |
-| BUN         | 3XXX CXXX        | Branch unconditionally                            |
-| BSA         | 6XXX DXXX        | Branch and save return address                    |
-| ISZ         | 7XXX EXXX        | Increment and skip if zero                         |
-| CLA         | 7800             | Clear AC                                          |
-| CLE         | 7400             | Clear E                                           |
-| CMA         | 7200             | Complement AC                                     |
-| CME         | 7100             | Complement E                                      |
-| CIR         | 7080             | Circulate right AC and E                          |
-| CIL         | 7040             | Circulate left AC and E                           |
-| INC         | 7020             | Increment AC                                      |
-| SPA         | 7010             | Skip next instruction if AC is positive           |
-| SNA         | 7008             | Skip next instruction if AC is negative           |
-| SZA         | 7004             | Skip next instruction if AC is zero               |
-| SZE         | 7002             | Skip next instruction if E is zero                |
-| HLT         | 7001             | Halt the computer                                 |
-| INP         | F800             | Input character to AC                             |
-| OUT         | F400             | Output character from AC                          |
-| SKI         | F200             | Skip next instruction on Input Flag               |
-| SKO         | F100             | Skip next instruction on Output Flag              |
-| ION         | F080             | Interrupt on                                      |
-| IOF         | F040             | Interrupt off                                     |
+| Instruction      | Hexadecimal Code | Description                                       |
+|-------------------|-------------------|---------------------------------------------------|
+| AND               | 0XXX 8XXX         | And memory word to AC                             |
+| ADD               | 1XXX 9XXX         | Add memory word to AC                             |
+| LDA               | 2XXX AXXX         | Load AC from memory                               |
+| STA               | 3XXX BXXX         | Store content of AC into memory                   |
+| BUN               | 3XXX CXXX         | Branch unconditionally                            |
+| ISZ               | 7XXX EXXX         | Increment and skip if zero                        |
+| CLA               | 7800              | Clear AC                                          |
+| CLE               | 7400              | Clear E                                           |
+| CMA               | 7200              | Complement AC                                     |
+| CME               | 7100              | Complement E                                      |
+| INC               | 7020              | Increment AC                                      |
+| SPA               | 7010              | Skip next instruction if AC is positive           |
+| SNA               | 7008              | Skip next instruction if AC is negative           |
+| SZA               | 7004              | Skip next instruction if AC is zero               |
+| SZE               | 7002              | Skip next instruction if E is zero                |
+
+
 
 # basic computer
 ![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(6).png)
