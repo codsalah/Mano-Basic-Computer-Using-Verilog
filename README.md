@@ -34,7 +34,7 @@ The Mano Basic Computer is a theoretical computer architecture described by M. M
 - **timing_signals**: Module for timing signals.
 
 # Instruction Set
-
+![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(2).png)
 This implementation can execute all the instructions described by M. Morris Mano.
 
 | Instruction | Hexadecimal Code | Description                                       |
@@ -65,3 +65,8 @@ This implementation can execute all the instructions described by M. Morris Mano
 | ION         | F080             | Interrupt on                                      |
 | IOF         | F040             | Interrupt off                                     |
 
+# basic computer
+![img](https://github.com/codsalah/Mano-Basic-Computer-Using-Verilog/blob/main/images/img%20(6).png)
+
+# Output signal
+![img](https://raw.githubusercontent.com/codsalah/Mano-Basic-Computer-Using-Verilog/main/images/img%20(1).png)
